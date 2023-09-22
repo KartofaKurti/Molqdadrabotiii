@@ -141,7 +141,7 @@ namespace TukaSheBachkam
                 var playerInput = ChampSelection();
                 while (!availableChampions.Contains(playerInput))
                 {
-                    Console.WriteLine("Choose another champion");
+                    Console.WriteLine("Choose another champion!!!");
                     playerInput = ChampSelection();
                 }
 
