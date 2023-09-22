@@ -367,7 +367,7 @@ namespace TukaSheBachkam
                             }
                             else
                             {
-                                Console.WriteLine("No Health Potions left in inventory.");
+                                Console.WriteLine("No Health Potions left in inventory!");
                             }
                             break;
                         case "ManaPot":
