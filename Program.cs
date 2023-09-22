@@ -141,7 +141,7 @@ namespace TukaSheBachkam
                 var playerInput = ChampSelection();
                 while (!availableChampions.Contains(playerInput))
                 {
-                    Console.WriteLine("Choose another champion!!!");
+                    Console.WriteLine("Choose another champion");
                     playerInput = ChampSelection();
                 }
 
@@ -297,7 +297,7 @@ namespace TukaSheBachkam
                         if (bossStage == 1)
                         {
                             Console.WriteLine("Baron spit on you and reduced your damage!! \n Your damage is 10% lower!!");
-                            playerCharacter.AbilityOneDmg -= playerCharacter.AbilityTwoDmg * 0.10f;
+                            playerCharacter.AbilityOneDmg -= playerCharacter.AbilityTwoDmg * 0.11f;
                             playerCharacter.AbilityTwoDmg -= playerCharacter.AbilityTwoDmg * 0.10f;
                             bossStage++;
                         }
@@ -367,7 +367,7 @@ namespace TukaSheBachkam
                             }
                             else
                             {
-                                Console.WriteLine("No Health Potions left in inventory!");
+                                Console.WriteLine("No Health Potions left in inventory.");
                             }
                             break;
                         case "ManaPot":
